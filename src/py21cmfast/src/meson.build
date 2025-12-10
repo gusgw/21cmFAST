@@ -43,6 +43,7 @@ cuda_source_files = files([
   # 'interpolation.cu',  # Included by interp_tables.cu, don't compile separately
   'device_rng.cu',
   'MapMass_gpu.cu',
+  'InitialConditions_gpu.cu',
   'test_Stochasticity.cu',
   'cuda_hello_world.cu',
 ])
